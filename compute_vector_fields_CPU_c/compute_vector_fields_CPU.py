@@ -265,9 +265,4 @@ print(f"Total computation time: {total_computation_time:.4f} seconds")
 
 
 
-start_time = time.time()
-with concurrent.futures.ProcessPoolExecutor(max_workers=12) as executor:
-    vector_field_filenames = list(executor.map(compute_plot_save_vector_field, range(len(binary_frames) - 1)))
-total_computation_time = time.time() - start_time
-print(f"Total computation time: {total_computation_time:.4f} seconds")
-start_time = time.time()
+
