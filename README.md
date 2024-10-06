@@ -62,6 +62,5 @@ params = {
 Frame_into_video.py : 
 If you need to display the frames as a video. Fps can be adjusted. It convert frame in opencv format because it is easely to handle it whith opencv.
 
-Frame_into_video.py : 
-If you need to display the frames as a video. Fps can be adjusted. It convert frame in opencv format because it is easely to handle it whith opencv.
+
 
