@@ -57,8 +57,6 @@ params = {
     'validation_method': 'median_velocity',
 }
 
-Frame_into_video.py : 
-If you need to display the frames as a video. Fps can be adjusted. It convert frame in opencv format because it is easely to handle it whith opencv.
 
 Links to OpenPIV:
 - OpenPIV Python: https://github.com/OpenPIV/openpiv-python.git
